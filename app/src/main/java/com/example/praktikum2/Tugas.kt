@@ -65,6 +65,10 @@ fun HalamanLogin(modifier: Modifier){
                     .size(150.dp)
                     .clip(CircleShape)
             )
+
+            Spacer(modifier = Modifier.height(100.dp))
+
+            
         }
     }
 }
