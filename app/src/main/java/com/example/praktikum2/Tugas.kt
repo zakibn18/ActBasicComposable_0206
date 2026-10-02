@@ -47,7 +47,12 @@ fun HalamanLogin(modifier: Modifier){
                 .fillMaxSize()
                 .padding(top = 60.dp)
         ) {
-
+            Text(
+                text = "Login",
+                fontSize = 32.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
         }
     }
 }
