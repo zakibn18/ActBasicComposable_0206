@@ -34,6 +34,12 @@ fun HalamanLogin(modifier: Modifier){
         modifier = modifier.fillMaxSize(),
         contentAlignment = Alignment.TopCenter
     ){
-        
+        Image(
+            painter = bgImage,
+            contentDescription = "Background",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+
     }
 }
