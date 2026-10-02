@@ -57,6 +57,15 @@ fun HalamanLogin(modifier: Modifier = Modifier){
                 color = Color.Blue
             )
 
+            Spacer(modifier = Modifier.height(4.dp))
+
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.SemiBold,
+                color = Color.Yellow
+            )
+
             Spacer(modifier = Modifier.height(40.dp))
 
             Image(
