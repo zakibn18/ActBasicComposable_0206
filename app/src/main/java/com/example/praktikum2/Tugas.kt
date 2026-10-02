@@ -113,7 +113,14 @@ fun HalamanLogin(modifier: Modifier){
                         .clip(CircleShape)
                 )
             }
-
         }
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun HalamanLoginPreview() {
+    Praktikum2Theme {
+        HalamanLogin(modifier = Modifier)
     }
 }
