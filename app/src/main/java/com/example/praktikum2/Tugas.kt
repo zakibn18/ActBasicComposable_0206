@@ -23,3 +23,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.praktikum2.ui.theme.Praktikum2Theme
+
+@Composable
+fun HalamanLogin(modifier: Modifier){
+
+}
