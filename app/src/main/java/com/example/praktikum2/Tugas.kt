@@ -28,7 +28,7 @@ import androidx.compose.ui.unit.sp
 import com.example.praktikum2.ui.theme.Praktikum2Theme
 
 @Composable
-fun HalamanLogin(modifier: Modifier){
+fun HalamanLogin(modifier: Modifier = Modifier){
     val bgImage = painterResource(id = R.drawable.background)
     val logoImage = painterResource(id = R.drawable.logo_umy)
     val profileImage = painterResource(id = R.drawable.profil)
@@ -121,6 +121,6 @@ fun HalamanLogin(modifier: Modifier){
 @Composable
 fun HalamanLoginPreview() {
     Praktikum2Theme {
-        HalamanLogin(modifier = Modifier)
+        HalamanLogin()
     }
 }
