@@ -29,4 +29,11 @@ fun HalamanLogin(modifier: Modifier){
     val bgImage = painterResource(id = R.drawable.background)
     val logoImage = painterResource(id = R.drawable.logo_umy)
     val profileImage = painterResource(id = R.drawable.profil)
+
+    Box(
+        modifier = modifier.fillMaxSize(),
+        contentAlignment = Alignment.TopCenter
+    ){
+        
+    }
 }
