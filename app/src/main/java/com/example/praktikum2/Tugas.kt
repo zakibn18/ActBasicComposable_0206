@@ -97,6 +97,23 @@ fun HalamanLogin(modifier: Modifier){
 
             Spacer(modifier = Modifier.height(20.dp))
 
+            Box(
+                modifier = Modifier
+                    .size(280.dp)
+                    .clip(CircleShape)
+                    .background(Color.White),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = profileImage,
+                    contentDescription = "Foto Profil",
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier
+                        .size(270.dp)
+                        .clip(CircleShape)
+                )
+            }
+
         }
     }
 }
