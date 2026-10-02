@@ -79,6 +79,15 @@ fun HalamanLogin(modifier: Modifier){
 
             Spacer(modifier = Modifier.height(4.dp))
 
+            Text(
+                text = "Zaky Ibnu Sofyan",
+                fontSize = 20.sp,
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold
+            )
+
+            Spacer(modifier = Modifier.height(4.dp))
+
 
         }
     }
