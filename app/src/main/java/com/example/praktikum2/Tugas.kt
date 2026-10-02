@@ -41,5 +41,13 @@ fun HalamanLogin(modifier: Modifier){
             modifier = Modifier.fillMaxSize()
         )
 
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 60.dp)
+        ) {
+
+        }
     }
 }
