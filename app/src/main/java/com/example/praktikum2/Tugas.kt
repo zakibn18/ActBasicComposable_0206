@@ -53,6 +53,8 @@ fun HalamanLogin(modifier: Modifier){
                 fontWeight = FontWeight.Bold,
                 color = Color.Blue
             )
+
+            Spacer(modifier = Modifier.height(40.dp))
         }
     }
 }
